@@ -11,7 +11,13 @@ html {
 }
 
 a {
-  color: black !important;
+  color: blue !important;
+}
+
+a:hover{
+  text-decoration: underline;
+    text-decoration-color: red;
+    -webkit-text-decoration-color: red;
 }
 
 header {
