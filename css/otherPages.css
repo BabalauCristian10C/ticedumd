@@ -1,0 +1,158 @@
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0px 0px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.content {
+  width: 70vw;
+  font-size: 18px;
+}
+.underTitle{
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 28px;
+  text-align: center;
+}
+
+.imgMult {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 1500px;
+  margin: 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+p{
+  text-align: justify !important;
+}
+
+img {
+  width: 500px;
+  margin: 50px;
+}
+
+.topBox{
+  width: 100%;
+  justify-content: center;
+}
+
+.contentTitle {
+  font-size: 25px;
+  color: #5B9BD5;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.content-subtitle {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 50px 0px 30px;
+}
+
+.underTitle {
+  width: 70%;
+  padding: 0px 150px 0px 150px;
+}
+.content-box {
+  max-width: 500px;
+}
+.content-box img {
+  width: 100%;
+}
+
+.topBox{
+  display:flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.topBox .imgMult {
+  margin:30px;
+}
+.topBox .imgMult img {
+  margin:10px;
+  height: 250px;
+}
+.content-box p{
+  padding: 20px;
+}
+
+.tv-container img{
+  width: 400px;
+}
+body{
+  text-align: justify;
+}
+.tv-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.ulnostyle li{
+  list-style: none;
+}
+
+i{
+  margin-right: 10px;
+  z-index: 0 !important;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+@media screen and (max-width: 700px) {
+  .content-box .imgMult img{
+    height: 40% !important;
+  }
+  .topBox{
+    flex-wrap: wrap;
+  }
+  .title{
+    font-size: 20px !important;
+  }
+  .topBox .imgMult img{
+    margin:0px !important;
+  }
+  .content-box p {
+    font-size: 16px;
+    padding: 4px;
+  }
+  .contentTitle {
+    font-size: 22px;
+  }
+}
