@@ -179,3 +179,13 @@ i{
  justify-content:space-between;
  flex-direction: row;
  }
+
+ .center {
+  height: 500px;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #dbe4ed; /* Border color is optional */  
+
+}
