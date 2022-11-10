@@ -31,6 +31,7 @@ html {
 .title {
   font-size: 28px;
   text-align: center;
+  margin: 0px 50px 0px 50px;
 }
 
 .imgMult {
@@ -45,22 +46,6 @@ html {
           justify-content: center;
   max-width: 1500px;
   margin: 50px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.imgMult2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  max-width: 1500px;
-  /* margin: 50px; */
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -96,6 +81,19 @@ img {
   width: 70%;
   padding: 0px 150px 0px 150px;
 }
+ul li {
+  list-style: "- ";
+  font-style: italic;
+  font-size: 17px;
+  font-weight: 500;
+}
+ol li{
+  font-style: italic;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+
 .content-box {
   max-width: 500px;
 }
@@ -151,6 +149,43 @@ i{
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }
+.logoContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.logoContainer img{
+  width:70px;
+  margin:20px !important;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+.containerWithText{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+.containerWithText img {
+  margin: 0px 30px 0px 0px;
+}
+
+.containerWithText p {
+  max-width: 600px;
+  margin: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
 @media screen and (max-width: 700px) {
   .content-box .imgMult img{
     height: 40% !important;
@@ -173,19 +208,4 @@ i{
   }
 }
 
-.imgText {
-  display: flex;
- align-items: center;
- justify-content:space-between;
- flex-direction: row;
- }
 
- .center {
-  height: 500px;
-  width: 45%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 3px solid #dbe4ed; /* Border color is optional */  
-
-}
