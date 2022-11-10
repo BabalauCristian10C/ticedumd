@@ -179,6 +179,7 @@ th, td {
   margin: 0px 30px 0px 0px;
 }
 
+
 .containerWithText p {
   max-width: 600px;
   margin: 30px;
@@ -206,6 +207,23 @@ th, td {
   .contentTitle {
     font-size: 22px;
   }
+}
+
+.imgText {
+  display: flex;
+ align-items: center;
+ justify-content:space-between;
+ flex-direction: row;
+ }
+
+ .center {
+  height: 500px;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #dbe4ed; /* Border color is optional */  
+
 }
 
 
