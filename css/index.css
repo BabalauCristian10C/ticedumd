@@ -303,7 +303,7 @@ main {
   margin: 100px 100px 100px 0px
 }
 .stemBlock .stemImg {
-width:340px;
+width:240px !important;
 height:100%;
   display: -webkit-box;
   display: -ms-flexbox;
