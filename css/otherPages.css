@@ -240,4 +240,9 @@ th, td {
 
 }
 
+.resize {
+  width: 200px;
+  height: auto;
+}
+
 
