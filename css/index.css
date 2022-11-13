@@ -273,7 +273,7 @@ main {
 .commonBlock{
   display:flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
   margin-top: 60px;
 }
@@ -300,10 +300,10 @@ main {
 .stemBlock .helpBlock p {
   font-size: 24px;
   max-width: 600px;
-  margin:100px;
+  margin: 100px 100px 100px 0px
 }
 .stemBlock .stemImg {
-width:520px;
+width:340px;
 height:100%;
   display: -webkit-box;
   display: -ms-flexbox;
