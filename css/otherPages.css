@@ -109,6 +109,10 @@ ol li{
 .topBox .imgMult {
   margin:30px;
 }
+.childBox {
+  max-width: 400px;
+  margin:30px;
+}
 .topBox .imgMult img {
   margin:10px;
   height: 250px;
@@ -116,7 +120,17 @@ ol li{
 .content-box p{
   padding: 20px;
 }
-
+.imgMult2{
+  max-width:600px;
+}
+.parentsBox{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1300px;
+  align-items: center;
+}
 .tv-container img{
   width: 400px;
 }
