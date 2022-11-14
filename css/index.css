@@ -397,9 +397,9 @@ height:100%;
   margin-bottom: 60px;
 }
 .modularWindow .modules .moduleHidden {
-  width: 1310px;
+  width: auto;
+  max-width: 1374px;
   height: 130%;
-  padding: 30px;
   background-color: #D2E5F6 !important;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -426,6 +426,41 @@ br{
   content: "-";
   position: relative;
 }
+.columnBlock{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.parentsBlock{
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px 0px 50px 0px;
+}
+.parentsBlock p {
+  text-align: center !important;
+  max-width: 400px;
+}
+.childsBlock{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width:400px;
+  margin: 20px;
+}
+.childsBlock img{
+width:400px;
+height:auto;
+}
+
 
 @media only screen and (max-width: 1000px) {
   .helpBlock p {
@@ -490,7 +525,7 @@ br{
     border: 2px solid #034480;
   }
   .modularWindow .modules .moduleHidden {
-    width: 670px;
+    width: 90%;
     height: 130%;
     background-color: #D2E5F6 !important;
     display: -webkit-box;
@@ -510,5 +545,47 @@ br{
   }
   .modularWindow .modules .moduleHidden li {
     padding: 5px;
+  }
+  .helpBlock img{
+    width:200px !important;
+  }
+  .helpBlock p {
+    font-size: 16px !important;
+    margin:20px !important;
+  }
+  .stemImg img {
+    width: 200px!important;
+    height: auto !important;
+  }
+  .contactBlock li {
+    font-size: 14px !important;
+  }
+  .secondBlockHeader h2{
+    font-size: 18px !important;
+  }
+  .contactBlock img {
+    width: 40px!important;
+    height: auto!important;
+    margin: 0px !important;
+  }
+  .moduleShown{
+    text-align: center;
+  }
+  ul li, ol li {
+    font-size: 14px !important;
+  }
+  .content {
+    width: 90vw !important;
+    font-size: 16px !important;
+  }
+  .imgText {
+    font-size: 14px!important;
+    margin: 20px!important;
+    flex-direction: column !important;
+  }
+  .imgText img {
+    width:250px !important;
+    height: auto!important;
+        margin: 20px!important;;
   }
 }
