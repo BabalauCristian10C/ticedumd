@@ -245,4 +245,8 @@ th, td {
   height: auto;
 }
 
+.bulletlist{
+  list-style-type: disc;
+}
+
 
